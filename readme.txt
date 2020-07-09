@@ -54,7 +54,7 @@ SSL Wireless has helped launch Mobile VAS and SMS Banking for the first time in 
 
 == Changelog ==
 = 1.0.0 =
-> Release Date - 08 June 2020
+> Release Date - 11 July 2020
 
 * The plugin will transparently support sandbox & securepay.
 * Hosted & Popup both supported.
