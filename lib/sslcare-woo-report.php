@@ -3,20 +3,16 @@
 	wp_register_style('stylesheet_1', SSLW_SMS_URL . "lib/asset/css/jquery.dataTables.min.css");
     wp_register_style('stylesheet_2', SSLW_SMS_URL . "lib/asset/css/buttons.dataTables.min.css");
     wp_register_style('stylesheet_3', SSLW_SMS_URL . "lib/asset/css/dataTables.searchHighlight.css");
-    wp_register_style('stylesheet_6', SSLW_SMS_URL . "lib/asset/css/bootstrap.min.css");
     
     wp_register_script('script_1', SSLW_SMS_URL . "lib/asset/js/jquery.dataTables.min.js");
     wp_register_script('script_2', SSLW_SMS_URL . "lib/asset/js/dataTables.buttons.min.js");
-    wp_register_script('script_3', SSLW_SMS_URL . "lib/asset/js/buttons.flash.min.js");
-    wp_register_script('script_4', SSLW_SMS_URL . "lib/asset/js/jszip.min.js");
-    wp_register_script('script_5', SSLW_SMS_URL . "lib/asset/js/pdfmake.min.js");
-    wp_register_script('script_6', SSLW_SMS_URL . "lib/asset/js/vfs_fonts.js");
-    wp_register_script('script_7', SSLW_SMS_URL . "lib/asset/js/buttons.html5.min.js");
-    wp_register_script('script_8', SSLW_SMS_URL . "lib/asset/js/buttons.print.min.js");
-    wp_register_script('script_9', SSLW_SMS_URL . "lib/asset/js/dataTables.searchHighlight.min.js");
-    wp_register_script('script_10', SSLW_SMS_URL . "lib/asset/js/jquery.highlight.js");
-    wp_register_script('script_11', SSLW_SMS_URL . "lib/asset/js/dataTables.select.min.js");
-    wp_register_script('script_14', SSLW_SMS_URL . "lib/asset/js/bootstrap.min.js");
+    wp_register_script('script_3', SSLW_SMS_URL . "lib/asset/js/jszip.min.js");
+    wp_register_script('script_4', SSLW_SMS_URL . "lib/asset/js/pdfmake.min.js");
+    wp_register_script('script_5', SSLW_SMS_URL . "lib/asset/js/buttons.html5.min.js");
+    wp_register_script('script_6', SSLW_SMS_URL . "lib/asset/js/buttons.print.min.js");
+    wp_register_script('script_7', SSLW_SMS_URL . "lib/asset/js/dataTables.searchHighlight.min.js");
+    wp_register_script('script_8', SSLW_SMS_URL . "lib/asset/js/jquery.highlight.js");
+    wp_register_script('script_9', SSLW_SMS_URL . "lib/asset/js/dataTables.select.min.js");
 
     wp_enqueue_script('script_1');
     wp_enqueue_script('script_2');
@@ -27,16 +23,10 @@
     wp_enqueue_script('script_7');
     wp_enqueue_script('script_8');
     wp_enqueue_script('script_9');
-    wp_enqueue_script('script_10');
-    wp_enqueue_script('script_11');
-    // wp_enqueue_script('script_13');
-    wp_enqueue_script('script_14');
 
     wp_enqueue_style('stylesheet_1');
     wp_enqueue_style('stylesheet_2');
     wp_enqueue_style('stylesheet_3');
-    // wp_enqueue_style('stylesheet_5');
-    wp_enqueue_style('stylesheet_6');
 ?>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
